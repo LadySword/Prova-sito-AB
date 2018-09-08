@@ -1,13 +1,13 @@
 // JavaScript Document
 
-$("li").mouseenter(function menuautore(){
+$("#menuautore").mouseenter(function autore(){
 	"use strict";
     $("#menuautore").animate({
         opacity: '0.5',
 	});
 }); 
 
-$("li").mouseleave(function menuautore1(){
+$("#menuautore").mouseleave(function autore2(){
 	"use strict";
     $("#menuautore").animate({
         opacity: '1',
@@ -16,14 +16,14 @@ $("li").mouseleave(function menuautore1(){
 
 
 
-$("li").mouseenter(function(){
+$("#menuscritti").mouseenter(function scritti(){
 	"use strict";
     $("#menuscritti").animate({
         opacity: '0.5',
 	});
 }); 
 
-$("li").mouseleave(function(){
+$("#menuscritti").mouseleave(function scritti2(){
 	"use strict";
     $("#menuscritti").animate({
         opacity: '1',
@@ -32,14 +32,14 @@ $("li").mouseleave(function(){
 
 
 
-$("li").mouseenter(function(){
+$("#menunovita").mouseenter(function novita(){
 	"use strict";
     $("#menunovita").animate({
         opacity: '0.5',
 	});
 }); 
 
-$("li").mouseleave(function(){
+$("#menunovita").mouseleave(function novita2(){
 	"use strict";
     $("#menunovita").animate({
         opacity: '1',
@@ -48,14 +48,14 @@ $("li").mouseleave(function(){
 
 
 
-$("li").mouseenter(function(){
+$("#menucontatti").mouseenter(function contatti(){
 	"use strict";
     $("#menucontatti").animate({
         opacity: '0.5',
 	});
 }); 
 
-$("li").mouseleave(function(){
+$("#menucontatti").mouseleave(function contatti2(){
 	"use strict";
     $("#menucontatti").animate({
         opacity: '1',
