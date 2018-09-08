@@ -42,6 +42,9 @@ a {
 }
 
 .parallax-mirror {
+	background: transparent;
+	background-color: transparent;
+	
 	box-sizing: border-box;
 	vertical-align: bottom;
 	
@@ -68,6 +71,9 @@ a {
 	border-image-slice: 100%;
 	border-image-source: none;
 	border-image-width: 1;
+	
+	background: transparent;
+	background-color: transparent;
 	
 	box-sizing: border-box;
 }
