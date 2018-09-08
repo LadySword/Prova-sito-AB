@@ -61,3 +61,7 @@ $("#menucontatti").mouseleave(function contatti2(){
         opacity: '1',
 	});
 }); 
+
+
+
+$('.page-header').parallax({imageSrc: 'immagini/17.jpg'});

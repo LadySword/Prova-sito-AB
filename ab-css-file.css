@@ -271,6 +271,7 @@ body, html {
 	background-position-y: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background: transparent;
 	
 	box-sizing: border-box;
 	vertical-align: bottom;
